@@ -1,0 +1,304 @@
+body {
+    margin:0;
+    background-color: #F2F2F5;
+}
+
+/*partie background*/
+.background-home {
+    background-image: url('./images/background.jpeg');
+    background-size:cover;
+    background-attachment: fixed;
+    height: 120vh;
+}
+
+.navigation ul {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 400px;
+   padding-left: 950px;
+   padding-top:20px;
+   margin-top: 0;
+
+}
+
+.navigation li {
+list-style: none;
+font-family: 'Roboto', sans-serif;
+font-size: 22px;
+color:white;
+font-weight: 100;
+}
+
+.navigation a {
+text-decoration: none;
+color: white;
+outline: none;
+}
+
+.navigation a:hover {
+    color: #E8B824;
+}
+
+.shop {
+    margin: 400px 0 0 900px;
+}
+
+.bigtitle {
+font-family: 'Roboto', sans-serif;
+font-size: 70px;
+font-weight: 100;
+color:white;
+height: 50px;
+}
+
+.salon {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+    margin-left: 180px;
+}
+
+.bigtitle::after {
+    display: block;
+    height: 1px;
+    background-color: white;
+    content: " ";
+    width: 100px;
+    margin-left: 290px;
+    margin-top: 10px;
+    
+}
+
+/* partie 2: presentation */
+.second {
+    margin-top: 100px;
+}
+
+.title {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 100px;
+
+}
+.content {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-top:15px;
+}
+
+/*partie 3: avis*/
+.third {
+    margin-top:100px;
+    margin-left: 35px; 
+    margin-right: 35px;
+}
+
+.avis {
+    margin-top:70px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.vide::after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 225px;
+    background-color: #979797;
+}
+
+.paragraph {
+    font-family: 'Karma', serif;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.nom {
+    font-family: 'Karma', serif;
+    font-size: 15px;
+    font-weight: 200px;
+    margin-left: 30px;
+    display:flex;
+   
+}
+
+.date {
+    font-size: 13px;
+    color: #AEAEB0;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+.check {
+    margin-left: 20px;
+    display: flex;
+}
+
+/*partie 4: la carte*/
+.backgroundtwo {
+margin-top: 100px;
+background-image: url("./images/background2.jpeg");
+background-size:cover;
+background-attachment: fixed;
+height: 120vh;
+}
+
+.four {
+    margin-left: 45px; 
+    margin-right: 45px;
+    margin-top: 70px;
+}
+
+.cartes {
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.carre {
+    height: 253px;
+    width:  253px;
+    border: ;
+    box-shadow:;
+    border-radius: 1%; 
+    background-color: rgba(255, 252, 238, 0.3);
+}
+
+.carre:hover {
+    background-color: #E8E3AD;
+    opacity: 0.5;
+}
+
+.specialites {
+font-family:'Karma', serif;
+font-size: 20px;
+font-weight: 200;
+opacity: none;
+color: black;
+text-align: center;
+padding-top: 90px;
+}
+
+.specialites a {
+    text-decoration: none;
+    color:black;
+    opacity: none;
+}
+
+.specialites a:hover {
+    color: #E8B824;
+    font-weight: 400;
+}
+
+.titlebis {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 150px;
+    color:white;
+    padding-top: 20px;
+}
+
+.contentbis {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-top:15px;
+    color: white;
+}
+
+/*partie 5: actualités */
+.five {
+margin-top: 150px;
+}
+
+.infos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rotation {
+    width: 500px;
+    height: 200px;
+    border-top: solid 1px #AEAEB0;
+    border-bottom: solid 1px #AEAEB0;
+}
+
+.publication {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #E8B824;
+    margin-top:20px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.calendar {
+    margin-right: 10px;
+}
+
+.news {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+/* partie 6: footer*/
+
+footer {
+    margin-top: 130px;
+    background-color: #E8B824;
+    width: 100%;
+    height: 200px;
+    opacity: 0.75;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Karma', serif;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 90px;
+    font-size: 20px;
+
+}
+
+.social a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.copyright::after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 100px;
+    background-color: black;
+}
+
+
